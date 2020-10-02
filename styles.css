@@ -1,0 +1,171 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.3rem;
+}
+
+
+h1{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 3.5rem;
+}
+
+h2{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 3rem;
+}
+
+h3{
+  font-size: 2rem;
+}
+
+.navbar{
+  min-height: 80px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff0f0;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #fff0f0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #d9adad;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #fff0f0;
+}
+
+.fa-home{
+  color: #fff0f0;
+}
+
+.btn-outline-success {
+    box-shadow: none;
+    color: #fff0f0;
+    background-color: #343a40;
+    border-color: #fff0f0;
+}
+
+
+.btn.btn-outline-success.submit-button:hover {
+    color: #343a40;
+    background-color: #fff0f0;
+    border-color: #fff0f0;
+}
+
+
+.btn.btn-outline-success.submit-button:active {
+    box-shadow: none;
+    color: #343a40;
+    background-color: #d9adad;
+    border-color: #fff0f0;
+}
+
+.btn-outline-success:focus {
+  box-shadow: none;
+  color: #fff0f0;
+  background-color: #343a40;
+  border-color: #fff0f0;
+}
+
+.btn-outline-success:visited {
+    box-shadow: none;
+    color: #fff0f0;
+    border-color: #fff0f0;
+}
+
+.header{
+  text-align: center;
+  background-color: #d9adad;
+  margin: auto 0 auto 0;
+  padding: 8% 8%;
+}
+
+.intro{
+  width: 80%;
+  min-height: 220px;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  padding: 3%;
+  background-color: #fff0f0;
+}
+
+.profile{
+  position: relative;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 30px
+}
+
+.card-parent{
+  background-color: #fff0f0;
+  padding: 5% 5%;
+  width: 80%;
+  margin: 100px auto 100px auto;
+}
+
+.card{
+  background-color: #fff;
+  text-align: center;
+  padding: 40px;
+  min-height: 584px;
+}
+
+.photography{
+  background-image: url("images/card1.png");
+}
+
+.travel{
+  background-image: url("images/travel1.jpg");
+}
+
+.footer{
+  text-align: center;
+  padding: 5% 15%;
+  background-color: #212529;
+  color: #fff0f0;
+}
+
+.foot-icon{
+  margin: 20px 10px;
+  cursor: pointer;
+  color: #fff0f0;
+}
+
+.fa-twitter:hover{
+  transform: scale(1.5);
+  color: #00acee;
+}
+
+.fa-facebook-f:hover{
+  transform: scale(1.5);
+  color: #3b5998;
+}
+
+.fa-instagram:hover{
+  transform: scale(1.5);
+  background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.fa-envelope:hover{
+  transform: scale(1.5);
+  color: #E41F1A;
+}
+
+
+.Copyright{
+  font-size: 1rem;
+}
