@@ -46,6 +46,11 @@ h3{
   color: #fff0f0;
 }
 
+.newsletter{
+  height: 35px;
+  width: 120px;
+}
+
 .btn-outline-success {
     box-shadow: none;
     color: #fff0f0;
